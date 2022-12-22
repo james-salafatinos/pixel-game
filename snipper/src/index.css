@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* -webkit-app-region:drag; */
+  background-color: transparent;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  color: rgb(0, 0, 0);
+  user-select:none;
+  overflow: hidden;
+}
+
+#close {
+  padding:5px;
+  font-size: 2em;
+  color: black;
+  /* -webkit-app-region: no-drag; */
+}
+
+#start {
+  padding:5px;
+  font-size: 2em;
+  justify-content: space-between;
+  color: black;
+  /* -webkit-app-region: no-drag; */
+}
+
+#close:hover{
+  color:hotpink
+}
+#start:hover{
+  color:rgb(123, 255, 105)
+}
+
+#options {
+  font-size: 12px;
+  text-align:right;
+  position: absolute;
+  top: 25px;
+  right: 45px;
+  z-index: 1;
+}
+#canavs {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+}
